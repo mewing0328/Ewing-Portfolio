@@ -1,0 +1,43 @@
+.lesson {
+    background-color: lemonchiffon;
+  }
+  
+  .title {
+    color: darkblue;
+  }
+  
+  #email {
+    background-color: goldenrod;
+  }
+  
+  #github {
+    background-color: lightsteelblue;
+  }
+  
+  #portfolio {
+    background-color: darkorange;
+  }
+
+  h1 {
+    background-color: blue;
+  }
+
+  .box {
+    width: 200px;
+    height: 200px;  
+  }
+
+  .box-blue {
+    color: white;
+    background-color: blue;
+  }
+
+  .box-orange{
+    color:white;
+    background-color: blue;
+  }
+
+  #box-yellow{
+    color:purple;
+    background-color: yellow;
+  }
