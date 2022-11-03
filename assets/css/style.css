@@ -3,6 +3,18 @@
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+/* elements selectors */
+
+header {
+  width: 100%;
+  background-color: black;
+}
+
+h2 {
+  color:#ffff;
+  background-color: rgb(156, 188, 236);
+}
+
 /* Any button over which the user's pointer is hovering */
 button:hover {
   font-weight: bold;
@@ -12,7 +24,8 @@ button:hover {
 /* Class selectors with . period */
 
 .title {
-  color: rgb(66, 4, 138);
+  font-size:xx-large;
+  color: rgb(195, 235, 238);
 }
 
 .bio {
@@ -42,22 +55,51 @@ button:hover {
   background-color: blue;
 }
 
+
+#nav-ul {
+  text-align: right;
+  color:#ffff;
+}
+
+.nav-li{
+  display:inline;
+  list-style-type: none;
+  font-size: 20px;
+  color:#ffff;
+}
+
+/* deactivate this code
 .lists{
   color:black;
-}
+}*/
 
 /* id selectors with # pound */
 
+    #about-me{
+      background-color: rgb(48, 47, 47);
+    }
+
+    #contact{
+      background-color: rgb(114, 110, 110);
+    }
+
+    #facts{
+      background-color: rgb(168, 161, 161);
+    }
+   
     #email {
       background-color: rgb(195, 235, 238);
+      color:black;
     }
   
     #github {
       background-color: rgb(158, 233, 238);
+      color:black;
     }
   
     #portfolio {
       background-color: rgb(105, 229, 238);
+      color:black;
     }
 
     #box-yellow{
@@ -77,14 +119,5 @@ button:hover {
       line-height: 50px;
     }
   
-/* elements selectors */
-  h1 {
-    background-color: rgb(197, 212, 241);
-  }
 
-  h2 {
-    color:rgb(62, 5, 218);
-    background-color: rgb(156, 188, 236);
-  }
- 
 

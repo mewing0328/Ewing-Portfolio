@@ -9,19 +9,28 @@
   </head>
 
   <body>
-
 <!-- Site Header -->
     <header>
       <!--The h1 tag should be used for the most important heading
         the h1 tag also has a class attribute
       -->
       <h1 class="title">Student Bio</h1>
+
+      <!--Added a navigation bar. Use <nav> & an <ul> with <li> nested-->
+      <!--<ul> aligned right and <li> inlined with each other-->
+      <nav>
+        <ul id="nav-ul">
+          <li class="nav-li" id="about-me">About Me</li>
+          <li class="nav-li" id="contact">Contact Information</li>
+          <li class="nav-li" id="facts">Fun Facts</li>
+        </ul>    
+      </nav>
     </header>
 
 <!-- Section 1: Bio -->
     
     <section class="sections">
-      <h2>MaSandra Ewing</h2>
+      <h2 id="about-me">About Me: MaSandra Ewing</h2>
       <!-- Image with modified img attributes and src within ./images-->
        <img src="./assets/images/image-1.jpg" 
           width="256" 
@@ -41,7 +50,7 @@
  <!-- Section 2: Contact Info -->
 
     <section class="sections">
-      <h2>Contact Info</h2>
+      <h2 id="contact">Contact Information</h2>
       <!-- Unordered list that has id attributes for each li item-->
       
       <ul>
@@ -60,7 +69,7 @@
 
     <section class="sections">
 <!--The h2 has a class attribute for CSS styling-->
-      <h2>Fun Facts</h2>
+      <h2 id="facts">Fun Facts</h2>
     </section>
 
     <section class="sections">
@@ -84,8 +93,5 @@
           <div>Ask me about it.</div>        
         </p>
     </section>
-  
-  
   </body>
-
 </html>
