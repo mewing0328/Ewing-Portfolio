@@ -4,79 +4,88 @@
   <head>
     <meta charset="UTF-8">
     <title>M.E. Bio with Attributes</title>
-    <!-- Link the stylesheet using rel and href attributes -->
+    <!-- Link the stylesheet using rel and href attributes to the CSS stylesheet -->
   <link rel="stylesheet" href="./assets/css/style.css"/>
   </head>
 
   <body>
-    <!-- Site Header -->
-    <header>
 
+<!-- Site Header -->
+    <header>
       <!--The h1 tag should be used for the most important heading
         the h1 tag also has a class attribute
       -->
       <h1 class="title">Student Bio</h1>
-    
     </header>
 
-    <!-- Section 1: Bio -->
-    <!-- <section> elements are given a class attribute with a value 'lesson'
-      `Section 1` has a background color of purple and the text is yellow.
-    -->
+<!-- Section 1: Bio -->
     
-    <section class="lesson">
-
+    <section class="sections">
       <h2>MaSandra Ewing</h2>
-
       <!-- Image with modified img attributes and src within ./images-->
        <img src="./assets/images/image-1.jpg" 
           width="256" 
           height="400" 
           alt="Image of MaSandra Ewing with width of 256 and height of 400" 
         /> 
-
     <!-- Paragraph with embedded link -->
-      <p>I live in Potomac, MD. I am a new mother of a 7 month old girl.
+      <p>My background has been working in Business Development with a focus on Pricing Strategy. 
+         I have experience also in Operations, Project Management, Training & Developing, and Financials.
         <div>
-            I am taking this course to learn basics of developing.
+            My goal is to add Developing expertise to my resume.
         </div>
       </p>
     </section>
 
 
-    <!-- <section> elements are given a class attribute with a value 'lesson'-->
+ <!-- Section 2: Contact Info -->
 
-    <!-- Section 2: Contact Info -->
-    <section class="lesson">
-      <!--The h2 has a class attribute for CSS styling-->
-      <h2 class="title">Contact Info</h2>
+    <section class="sections">
+      <h2>Contact Info</h2>
       <!-- Unordered list that has id attributes for each li item-->
       
       <ul>
         <!-- email li item has a unique attribute with a value of 'email'-->
-        <li id="email"><strong>Email:</strong> <a href="#">masandraewing@gmail.com</a></li>
+        <li id="email" class="lists"><strong>Email:</strong> <a href="#">masandraewing@gmail.com</a></li>
 
         <!-- Github li item has a unique attribute with value of 'github'-->
-        <li id="github"><strong>Github:</strong> <a href="#">mewing0328</a></li>
+        <li id="github" class="lists"><strong>Github:</strong> <a href="#">mewing0328</a></li>
 
         <!-- Portfolio li item has a unique attribute with value of 'portfolio'-->
-        <li id="portfolio"><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
+        <li id="portfolio" class="lists"><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
       </ul>
     </section>
 
-    <!---Section 3: practice sections with currently no content; practice styling-->
-    <section class="box box-blue">
-      <h2>Orange</h2>
+<!---Section 3: Fun Facts Section-->
+
+    <section class="sections">
+<!--The h2 has a class attribute for CSS styling-->
+      <h2>Fun Facts</h2>
     </section>
-    <section class="box box-blue">
-      <h2>Blue</h2>
+
+    <section class="sections">
+      <h2>Fact 1</h2>
+        <p id="fact-1">I have a 7 month old baby girl. I became a SAHM when I found out I was pregnant.
+          I worked part time at my husband's company after I gave birth.
+        </p>
     </section>
-    <section class="box box-orange">
-      <h2>Orange</h2>
+
+    <section class="sections">
+      <h2>Fact 2</h2>
+        <p id="fact-2">
+          I enjoy traveling, working out, golfing, and long walks on the beach.
+        </p>
     </section>
-    <section id="box-yellow">
-      <h2>Blue</h2>
+
+    <section class="sections">
+      <h2>Fact 3</h2>
+        <p id="fact-3"> 
+          I was featured in an episode of "Monsters Inside of Me". 
+          <div>Ask me about it.</div>        
+        </p>
     </section>
+  
+  
   </body>
 
 </html>

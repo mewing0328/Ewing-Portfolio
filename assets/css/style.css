@@ -1,43 +1,90 @@
-.lesson {
-    background-color: lemonchiffon;
-  }
-  
-  .title {
-    color: darkblue;
-  }
-  
-  #email {
-    background-color: goldenrod;
-  }
-  
-  #github {
-    background-color: lightsteelblue;
-  }
-  
-  #portfolio {
-    background-color: darkorange;
-  }
+/* Universal selector with a * astericks */
+* {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
+/* Any button over which the user's pointer is hovering */
+button:hover {
+  font-weight: bold;
+  color:blue;
+}
+
+/* Class selectors with . period */
+
+.title {
+  color: rgb(66, 4, 138);
+}
+
+.bio {
+  color: rgb(39, 16, 240);
+  background-color: rgb(236, 118, 227);
+}
+
+.sections{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:rgb(39, 16, 240);
+  background-color: #d7dceb;
+}
+  
+.box {
+  width: 200px;
+  height: 200px;
+  font-family:'Courier New', Courier, monospace;  
+}
+
+.box-blue {
+  color: white;
+  background-color: blue;
+}
+
+.box-orange{
+  color:white;
+  background-color: blue;
+}
+
+.lists{
+  color:black;
+}
+
+/* id selectors with # pound */
+
+    #email {
+      background-color: rgb(195, 235, 238);
+    }
+  
+    #github {
+      background-color: rgb(158, 233, 238);
+    }
+  
+    #portfolio {
+      background-color: rgb(105, 229, 238);
+    }
+
+    #box-yellow{
+      color:purple;
+      background-color: yellow;
+    }
+  
+    #fact-1 {
+      font-weight:bold;
+      line-height: 30px;
+    }
+    #fact-2 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    #fact-3 {
+      line-height: 50px;
+    }
+  
+/* elements selectors */
   h1 {
-    background-color: blue;
+    background-color: rgb(197, 212, 241);
   }
 
-  .box {
-    width: 200px;
-    height: 200px;  
+  h2 {
+    color:rgb(62, 5, 218);
+    background-color: rgb(156, 188, 236);
   }
+ 
 
-  .box-blue {
-    color: white;
-    background-color: blue;
-  }
-
-  .box-orange{
-    color:white;
-    background-color: blue;
-  }
-
-  #box-yellow{
-    color:purple;
-    background-color: yellow;
-  }
