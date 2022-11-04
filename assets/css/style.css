@@ -1,45 +1,178 @@
 /* Universal selector with a * astericks */
 * {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin:0;
+  padding:0;  
 }
+
 
 /* elements selectors */
 
-header {
+body{
+  position: relative;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-size: 20px;
+  background-color:#FDF8F5;
+  color: #4F4846;
+}
+
+header,
+footer {
+  height: 80px;
   width: 100%;
-  background-color: black;
+  line-height: 60px;
+  background-color: #266150;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid #DDAF94;
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid #4F4846;
+  color: #FDF8F5;    
+}
+
+.nav-li{
+  display:inline;
+  padding: 0px 20px;
+  font-size: 20px;
+  color:#ffff;
+}
+
+li{
+  list-style-type:none;
+}
+
+a {
+  list-style-type:none;
+  color: #FDF8F5;
+}
+
+main{
+  padding: 60px;
+}
+
+h1,
+h2 {
+  margin: 50px;
+  text-align: center;
 }
 
 h2 {
   color:#ffff;
-  background-color: rgb(156, 188, 236);
+  background-color: rgb(22, 59, 37);
+  margin-bottom: 0;
 }
 
-/* Any button over which the user's pointer is hovering */
-button:hover {
-  font-weight: bold;
-  color:blue;
+h3{
+  color:rgb(61, 8, 252);
 }
+
+figure{
+  margin-bottom: 40px;
+}
+
+img{
+  display: block;
+  margin: 20px auto;
+}
+
+section{
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid #DDAF94;
+  background-color: #E8CEBF;
+  text-align: center;
+}
+
+
+form {
+  /*center the form on the page*/
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid #DDAF94;
+  border-radius: 20px;
+}
+
+label{
+  display:inline-block;
+  width: 100px;
+}
+
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
+
+textarea{
+  vertical-align: top;
+  height: 60px;
+}
+
+button{
+  height: 40px;
+  width: 120px;
+  background-color: #4F4846;
+  color: #FDF8F5;
+}
+
 
 /* Class selectors with . period */
 
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .title {
+  text-align: right;
   font-size:xx-large;
+  line-height: 30px;
   color: rgb(195, 235, 238);
 }
 
 .bio {
   color: rgb(39, 16, 240);
   background-color: rgb(236, 118, 227);
-}
-
-.sections{
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color:rgb(39, 16, 240);
-  background-color: #d7dceb;
-}
   
-.box {
+
+
+/* id selectors with # pound */
+
+  #fact-1 {
+    font-weight:bold;
+    line-height: 30px;
+  }
+  #fact-2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #fact-3 {
+    line-height: 50px;
+  }
+
+
+
+
+
+
+/*PLACEHOLDER FOR DEACTIVATED PRACTICE CODES*/
+
+/* deactivate this code
+.lists{
+  color:black;
+
+  .box {
   width: 200px;
   height: 200px;
   font-family:'Courier New', Courier, monospace;  
@@ -55,26 +188,10 @@ button:hover {
   background-color: blue;
 }
 
-
-#nav-ul {
-  text-align: right;
-  color:#ffff;
-}
-
-.nav-li{
-  display:inline;
-  list-style-type: none;
-  font-size: 20px;
-  color:#ffff;
-}
-
-/* deactivate this code
-.lists{
-  color:black;
 }*/
 
-/* id selectors with # pound */
 
+   /* shut off this code
     #about-me{
       background-color: rgb(48, 47, 47);
     }
@@ -86,7 +203,13 @@ button:hover {
     #facts{
       background-color: rgb(168, 161, 161);
     }
+
+    #contactme{
+      color: black;
+      background-color: rgb(239, 248, 161);
+    }
    
+ 
     #email {
       background-color: rgb(195, 235, 238);
       color:black;
@@ -101,23 +224,8 @@ button:hover {
       background-color: rgb(105, 229, 238);
       color:black;
     }
+  */
 
-    #box-yellow{
-      color:purple;
-      background-color: yellow;
-    }
-  
-    #fact-1 {
-      font-weight:bold;
-      line-height: 30px;
-    }
-    #fact-2 {
-      font-size: 24px;
-      line-height: 30px;
-    }
-    #fact-3 {
-      line-height: 50px;
-    }
   
 
 

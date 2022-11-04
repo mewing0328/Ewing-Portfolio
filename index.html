@@ -2,42 +2,42 @@
 <html lang="en-US">
 
   <head>
+    <!-- Link the stylesheet using rel and href attributes to the CSS stylesheet -->
     <meta charset="UTF-8">
     <title>M.E. Bio with Attributes</title>
-    <!-- Link the stylesheet using rel and href attributes to the CSS stylesheet -->
-  <link rel="stylesheet" href="./assets/css/style.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css"/>
   </head>
 
   <body>
-<!-- Site Header -->
+    <!-- Site Header -->
     <header>
-      <!--The h1 tag should be used for the most important heading
-        the h1 tag also has a class attribute
-      -->
-      <h1 class="title">Student Bio</h1>
-
-      <!--Added a navigation bar. Use <nav> & an <ul> with <li> nested-->
+      <p class="title">Student Bio</p>
+      <!-- Navigation Bar -->
       <!--<ul> aligned right and <li> inlined with each other-->
       <nav>
-        <ul id="nav-ul">
-          <li class="nav-li" id="about-me">About Me</li>
-          <li class="nav-li" id="contact">Contact Information</li>
-          <li class="nav-li" id="facts">Fun Facts</li>
+        <ul class="text-right">
+          <li class="nav-li"> <a href="https://github.com/">Github</a></li>
+          <li class="nav-li"> <a href="#">Portfolio</a></li>
+          <li class="nav-li"> <a href="#contact">Contact</a></li>
         </ul>    
       </nav>
     </header>
 
-<!-- Section 1: Bio -->
-    
-    <section class="sections">
-      <h2 id="about-me">About Me: MaSandra Ewing</h2>
+    <!-- Section 1: Bio -->
+    <main>
+      <h2>About Me</h2>
+    <section>
       <!-- Image with modified img attributes and src within ./images-->
+      <figure>
        <img src="./assets/images/image-1.jpg" 
           width="256" 
           height="400" 
           alt="Image of MaSandra Ewing with width of 256 and height of 400" 
         /> 
-    <!-- Paragraph with embedded link -->
+        <figcaption class="text-center">MaSandra Ewing</figcaption>
+      </figure>
+
       <p>My background has been working in Business Development with a focus on Pricing Strategy. 
          I have experience also in Operations, Project Management, Training & Developing, and Financials.
         <div>
@@ -47,51 +47,73 @@
     </section>
 
 
- <!-- Section 2: Contact Info -->
-
-    <section class="sections">
-      <h2 id="contact">Contact Information</h2>
+    <!-- Section 2: Contact Info -->  
+    <h2>Contact Information</h2>
+    
+    <section>
       <!-- Unordered list that has id attributes for each li item-->
       
       <ul>
         <!-- email li item has a unique attribute with a value of 'email'-->
-        <li id="email" class="lists"><strong>Email:</strong> <a href="#">masandraewing@gmail.com</a></li>
+        <li><strong>Email:</strong> <a href="#">masandraewing@gmail.com</a></li>
 
         <!-- Github li item has a unique attribute with value of 'github'-->
-        <li id="github" class="lists"><strong>Github:</strong> <a href="#">mewing0328</a></li>
+        <li><strong>Github:</strong> <a href="#">mewing0328</a></li>
 
         <!-- Portfolio li item has a unique attribute with value of 'portfolio'-->
-        <li id="portfolio" class="lists"><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
       </ul>
     </section>
 
-<!---Section 3: Fun Facts Section-->
+    <!---Section 3: Fun Facts Section-->
+    <h2>Fun Facts</h2>
 
-    <section class="sections">
-<!--The h2 has a class attribute for CSS styling-->
-      <h2 id="facts">Fun Facts</h2>
-    </section>
-
-    <section class="sections">
-      <h2>Fact 1</h2>
+    <section>
+      <h3>Fact 1</h3>
         <p id="fact-1">I have a 7 month old baby girl. I became a SAHM when I found out I was pregnant.
           I worked part time at my husband's company after I gave birth.
         </p>
     </section>
 
-    <section class="sections">
-      <h2>Fact 2</h2>
+    <section>
+      <h3>Fact 2</h3>
         <p id="fact-2">
           I enjoy traveling, working out, golfing, and long walks on the beach.
         </p>
     </section>
 
-    <section class="sections">
-      <h2>Fact 3</h2>
+    <section>
+      <h3>Fact 3</h3>
         <p id="fact-3"> 
           I was featured in an episode of "Monsters Inside of Me". 
           <div>Ask me about it.</div>        
         </p>
     </section>
+
+    <!---Section 4: Form Section-->
+    <h2 id="contactme" class="text-center">Contact Me</h2>
+    <section>
+      <form>
+        <ul>
+          <li>
+            <label class="text-right" for="name">Name</label>
+            <input type="text" id="name" name="user-name">     
+          </li>
+          <li>
+            <label class="text-right" for="email">Email:</label>
+            <input type="text" id="email" name="user-email">
+          </li>
+        </ul>
+        <div class="text-center">
+          <button type="submit">SEND</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+    <footer class="text-center">
+      © 2022 My New Website Productions 
+    </footer>
+
   </body>
 </html>
