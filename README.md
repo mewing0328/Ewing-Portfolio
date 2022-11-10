@@ -4,6 +4,8 @@
 
 --- NOTE below is README from Challenge README ---
 
+## Credit
+[Website](https://pixabay.com/photos/web-design-coding-web-developing-2906159/) where I downloaded the horizontal image of a desk.
 
 
 # 02 Advanced CSS: Portfolio
