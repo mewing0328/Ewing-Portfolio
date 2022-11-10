@@ -7,7 +7,8 @@
 
 :root{
   --dark: rgb(0, 0, 0);
-  --baby-blue: rgb(72, 195, 204);
+  --theme: rgb(27, 138, 146);
+  --light: rgb(218, 237, 245);
 
 }
 
@@ -15,10 +16,8 @@
 /* elements selectors */
 
 body{
-  display:flex;
   position: relative;
   font-size: 20px;
-  background-color:#FDF8F5;
   color: #4F4846;
 }
 
@@ -31,7 +30,7 @@ footer {
 
 header {
   position: fixed;
-  border-bottom: 10px solid var(--baby-blue);
+  border-bottom: 10px solid var(--theme);
   background-color: var(--dark);
 }
 
@@ -43,22 +42,27 @@ footer {
   color: #FDF8F5;    
 }
 
-.desk{
+.desk img{
+  width: 100%;
   padding: 0px;
   margin: 0px;
   border: 0px;
-  text-align: center;
 }
 
+.overlay{
+  display: flex;
+  position: absolute;
+  top: 80px;
+  right 15px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 30px;
+}
 
 li{
   list-style-type:none;
 }
 
-
-main{
-  padding: 60px;
-}
 
 h1,
 h2 {
@@ -91,7 +95,7 @@ section{
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
   border-top: 3px solid #DDAF94;
-  background-color: #E8CEBF;
+  /*background-color: #E8CEBF;*/
   text-align: justify;
 }
 
@@ -144,8 +148,8 @@ button{
   text-align: left;
   font-size: 40px;
   line-height: 30px;
-  color: var(--dark);
-  background-color: var(--baby-blue);
+  color: var(--light);
+  background-color: var(--theme);
   padding: 10px;
   width: 250px;
   text-align: right;
@@ -174,7 +178,7 @@ button{
 .nav-item a{
   text-align: center;
   padding: 1px 1px;
-  color: var(--baby-blue);
+  color: var(--theme);
 }
 
 
