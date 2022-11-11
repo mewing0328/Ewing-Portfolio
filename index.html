@@ -18,28 +18,31 @@
       <navbar>
         <ul class="nav-list">
           <li class="nav-item"> <a href="#">About Me</a></li>
-          <li class="nav-item"> <a href="#">Work</a></li>
+          <li class="nav-item"> <a href="#">My Work</a></li>
           <li class="nav-item"> <a href="#">Contact Me</a></li>
-          <li class="nav-item"> <a href="#">Resume</a></li>
         </ul>    
       </navbar>
     </header>
 
    
     <main>
-    <section class="desk">
+    <section>
     <!-- Subtitle -->
       <figure>
-        <img src="assets/images/web-design-2906159_1280.jpg"
-             alt="Image of a desk with a laptop">
+        <img src="./assets/images/web-design-2906159_1280.jpg"
+             alt="Image of a desk with a laptop"
+             class="desk">
+        <!--<img src="./assets/images/image-1.jpg"
+             alt="My picture"
+             class="mypic">-->
         </figure>
-      <p class="overlay">Cool subtitle here.</p>
+      <p class="quote">“First, solve the problem. Then, write the code.” – John Johnson.</p>
     </section>
 
 
 
-    <!-- Section 1: Bio -->
-      <h2>About Me</h2>
+    <!-- About Me -->
+      <h1>About Me</h1>
     <section>
       <p>My background has been working in Business Development with a focus on Pricing Strategy. 
          I have experience also in Operations, Project Management, Training & Developing, and Financials.
@@ -50,10 +53,28 @@
     </section>
 
 
-    <!-- Section 2: Contact Info -->  
-    <h2>Contact Information</h2>
-    
+    <!--My Work -->  
+
+
+    <h1>My Work</h1>
     <section>
+        <ul>
+          <li>Horiseon Marketing</li>
+          <li>CSS Snippet Cheatsheet</li>
+          <li>Javascript Project</li>
+          <li>Web APIs</li>
+          <li>Third-Party APIs</li>
+          <li>Server-Side APIs</li>
+        </ul>
+        </div>
+    </section>  
+  </main>
+
+
+   <!---Contact Me-->
+    <footer>
+     <h1>Contact Me</h1>
+     <section>
       <!-- Unordered list that has id attributes for each li item-->
       
       <ul>
@@ -67,55 +88,6 @@
         <li><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
       </ul>
     </section>
-
-    <!---Section 3: Fun Facts Section-->
-    <h2>Fun Facts</h2>
-
-    <section>
-      <h3>Fact 1</h3>
-        <p id="fact-1">I have a 7 month old baby girl. I became a SAHM when I found out I was pregnant.
-          I worked part time at my husband's company after I gave birth.
-        </p>
-    </section>
-
-    <section>
-      <h3>Fact 2</h3>
-        <p id="fact-2">
-          I enjoy traveling, working out, golfing, and long walks on the beach.
-        </p>
-    </section>
-
-    <section>
-      <h3>Fact 3</h3>
-        <p id="fact-3"> 
-          I was featured in an episode of "Monsters Inside of Me". 
-          <div>Ask me about it.</div>        
-        </p>
-    </section>
-
-    <!---Section 4: Form Section-->
-    <h2 id="contactme" class="text-center">Contact Me</h2>
-    <section>
-      <form>
-        <ul>
-          <li>
-            <label class="text-right" for="name">Name</label>
-            <input type="text" id="name" name="user-name">     
-          </li>
-          <li>
-            <label class="text-right" for="email">Email:</label>
-            <input type="text" id="email" name="user-email">
-          </li>
-        </ul>
-        <div class="text-center">
-          <button type="submit">SEND</button>
-        </div>
-      </form>
-    </section>
-  </main>
-
-    <footer class="text-center">
-      © 2022 My New Website Productions 
     </footer>
 
   </body>

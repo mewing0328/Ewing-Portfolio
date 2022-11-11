@@ -34,65 +34,18 @@ header {
   background-color: var(--dark);
 }
 
-footer {
-  position: absolute;
-  margin-top: 0;
-  bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
-}
 
-.desk img{
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-}
-
-.overlay{
-  color: var(--light)
-  display: flex;
-  
-  margin: 0px;
-  right: 0px;
-  top: 15rem;
-  padding: 0px 4rem;
-  font-weight: bold;
-  text-align: right;
-  font-size: 30px;
-}
 
 li{
   list-style-type:none;
 }
 
 
-h1,
-h2 {
-  margin: 50px;
-  text-align: center;
+h1{
+  margin: 50px 70px 0px 0px;
+  text-align: left;
 }
 
-h2 {
-  color:#ffff;
-  background-color: rgb(22, 59, 37);
-  margin-bottom: 0;
-}
-
-h3{
-  color:rgb(61, 8, 252);
-}
-
-figure{
-  margin-bottom: 40px;
-  height: auto;
-  max-width: 100%;
-}
-
-img{
-  display: block;
-  margin: 20px auto;
-}
 
 section{
   margin-bottom: 0;
@@ -103,38 +56,11 @@ section{
 }
 
 
-form {
-  /*center the form on the page*/
-  margin: 0 auto;
-  width: 500px;
-  padding: 10px;
-  border: 5px solid #DDAF94;
-  border-radius: 20px;
+
+footer {
+  position: absolute;
 }
 
-label{
-  display:inline-block;
-  width: 100px;
-}
-
-input, 
-textarea {
-  box-sizing: border-box;
-  width: 300px;
-  border: 1px solid #4F4846;
-}
-
-textarea{
-  vertical-align: top;
-  height: 60px;
-}
-
-button{
-  height: 40px;
-  width: 120px;
-  background-color: #4F4846;
-  color: #FDF8F5;
-}
 
 
 /* Class selectors with . period */
@@ -148,7 +74,6 @@ button{
 }
 
 .lastname {
-  text-align: left;
   font-size: 40px;
   line-height: 30px;
   color: var(--light);
@@ -167,7 +92,6 @@ button{
   justify-content: flex-end;
   flex-wrap: wrap;
   align-items: center;
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
@@ -176,7 +100,7 @@ button{
 .nav-item{
   list-style: none;
   margin: 20px;
-  
+  font-size: larger;
 }
 
 .nav-item a{
@@ -185,6 +109,34 @@ button{
   color: var(--theme);
 }
 
+.desk {
+  display: inline; 
+  margin: 20px auto;
+  margin-bottom: 40px;
+  height: auto;
+  max-width: 100%;
+}
+
+.mypic{
+  display:flex;
+  align-items: right;
+  width: 10rem;
+  object-fit: contain;
+  border: 5px dashed var(--theme)
+}
+
+.quote{
+  color: var(--light)
+  display: flex;
+  margin: 0px;
+  right: 0px;
+  top: 15rem;
+  padding: 0px 4rem;
+  font-weight: bold;
+  text-align: right;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
 
 
 /*ID SELECTORS*/
@@ -202,9 +154,13 @@ button{
   }
   
   
+
 /*MEDIA QUERIES for different screen sizes*/
 
-/* For cell phones - max width is at 778px so "Ewing" doesn't clash with "About Me"*/
+/* For cell phones: 
+    - max width is at 778px so "Ewing" doesn't clash with "About Me"
+    - color and font size of hyperlinks change
+*/
 @media screen and (max-width:778px) {
   .nav-list, .nav-item a{
     font-size: smaller;
