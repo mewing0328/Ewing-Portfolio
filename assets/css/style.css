@@ -1,5 +1,6 @@
 /* Universal selector with a * astericks */
 * {
+  box-sizing: border-box;
   margin:0;
   padding:0;  
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
@@ -9,7 +10,7 @@
   --dark: rgb(0, 0, 0);
   --theme: rgb(27, 138, 146);
   --light: rgb(218, 237, 245);
-
+  --border: rgb(236, 173, 144);
 }
 
 
@@ -34,24 +35,27 @@ header {
   background-color: var(--dark);
 }
 
-
-
 li{
   list-style-type:none;
 }
 
-
 h1{
-  margin: 50px 70px 0px 0px;
+  margin: 0px 2rem;
   text-align: left;
+  border-right: 3px solid var(--border);
+  background-color: var(--light);
 }
 
+p {
+  
+}
 
-section{
-  margin-bottom: 0;
+.tiles {
+  display: flex;
+  flex-direction: row;
   padding: 20px 10px 40px 10px;
+  margin-bottom: 0;
   border-top: 3px solid #DDAF94;
-  /*background-color: #E8CEBF;*/
   text-align: justify;
 }
 
