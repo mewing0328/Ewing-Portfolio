@@ -50,10 +50,13 @@ footer {
 }
 
 .overlay{
+  color: var(--light)
   display: flex;
-  position: absolute;
-  top: 80px;
-  right 15px;
+  
+  margin: 0px;
+  right: 0px;
+  top: 15rem;
+  padding: 0px 4rem;
   font-weight: bold;
   text-align: right;
   font-size: 30px;
@@ -162,6 +165,7 @@ button{
 .nav-list {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   align-items: center;
   overflow: hidden;
   position: fixed;
@@ -196,8 +200,18 @@ button{
   #fact-3 {
     line-height: 50px;
   }
+  
+  
+/*MEDIA QUERIES for different screen sizes*/
 
-
+/* For cell phones - max width is at 778px so "Ewing" doesn't clash with "About Me"*/
+@media screen and (max-width:778px) {
+  .nav-list, .nav-item a{
+    font-size: smaller;
+    margin: 1rem 0px;
+    color: var(--light)
+  }
+}
   
 
 
