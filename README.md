@@ -1,13 +1,48 @@
-# student-bio
- ME Student Bio Classwork
+# MaSandra Ewing Portfolio
+ A portfolio of my work
+
+ ## Description
+
+ ### Tasks Completed
+ ```
+Responsive navigation bar that changes colors as screen size changes for readability.
+
+ ```
+
+ ## Links
+
+
+
+
+## Credit: References and Tutorials Utilized
+[Image Repository Website](https://pixabay.com/photos/web-design-coding-web-developing-2906159/) where I downloaded the horizontal image of a desk.
+[YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
+[W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
+
+## Usage
+
+### Mobile Screens 
+The screen appears below for screen sizes 634px and below:
+[Insert screenshot]
+
+### Tablet Screens 
+The screen appears below for screen sizes [xxx]px and below:
+[Insert screenshot]
+
+### Desktop Screens
+The screen appears below for screen sizes [xxx]px and below:
+[Insert screenshot]
+
+
+## Contributing
+[Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
+
+
+## License
+
 
 
 --- NOTE below is README from Challenge README ---
-
-## Credit
-[Image Repository Website](https://pixabay.com/photos/web-design-coding-web-developing-2906159/) where I downloaded the horizontal image of a desk.
-[YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
-
 
 # 02 Advanced CSS: Portfolio
 

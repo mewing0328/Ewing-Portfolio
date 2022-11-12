@@ -1,23 +1,26 @@
 
 * { 
     box-sizing: border-box;
-    border: 2px ;
+ /*border is black temp for wireframing REMOVE BEFORE SUBMITTING!*/
+    border: 2px dashed black;
     margin: 0 auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 :root {
-    --dark: rgb(0, 0, 0);
+    --dark: rgb(32, 27, 27);
     --theme: rgb(27, 138, 146);
     --light: rgb(218, 237, 245);
     --border: rgb(236, 173, 144);
+    --green: rgb(12, 94, 12);
   }
 
   body {
   }
 
 
+/* ------ NAVIGATION BAR ------ */
 
 header {
     position: fixed;
@@ -45,14 +48,17 @@ header li{
     margin: 20px 10px;
     font-size: 1.2rem;
     font-weight: bold;
+    justify-content: space-around;
 }
 
 header a{
-    text-align: center;
-    padding: 1px 1px;
+    padding: 0px 10px;
     color: var(--theme);
 }
 
+/* ------ END OF NAVIGATION BAR ------ */
+
+/* ------ MAIN CONTENT ------ */
 
 main {
     padding-top: 5rem;
@@ -65,17 +71,18 @@ section {
     padding: 20px 10px 40px 10px;
     margin: 0;
     border-top: 3px solid #DDAF94;
-    text-align: justify;
   }
 
   h1{
     margin: 0px 2rem;
-    text-align: left;
+    text-align:right;
     border-right: 3px solid var(--border);
     background-color: var(--light);
   }
 
-  /* CLASS SELECTORS */
+/* CLASS SELECTORS */
+
+/* ------ NAVIGATION BAR ------ */
 
   .lastname {
     font-size: 40px;
@@ -107,30 +114,62 @@ section {
     background-image: url(../images/desk.jpg);
     padding: 10rem 0;
     background-size: cover;
-    text-align: center;
-  }
+    color: var(--light);
+    }
 
-  .banner > *{
+  /*.banner > *{
     z-index: 10;
     position: relative;
     color: var(--light);
-  }
+  }*/
 
   .banner p{
     display:flex;
     flex-direction: row;
     font-weight: bold;
     font-size: 20px;
+    align-items: center;
   }
 
+/* ------ END OF NAVIGATION BAR ------ */
+
+/* ------ ABOUT ME ------ */
+
+
+  .about p{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about div{
+    display: block;
+    margin: 0px 2px;
+    padding: 1rem;
+  }
 
   .about img{
     display:flex;
     width: 10rem;
+    border-radius: 5px;
     border: 5px dashed var(--theme)
   }
 
+  /* ------ END OF ABOUT ME ------ */
 
+
+
+  
+/* PSUEDO ELEMENTS */
+
+/*Hover in navigation bar for mouse hovering.*/
+header a:hover{
+  color: var(--light);
+  background-image: linear-gradient(to right, var(--border), var(--green));
+  font-size: larger;
+  border-radius: 5px;
+  border: .5rem solid var(--theme);
+  align-items: top;
+}
 
 
   
@@ -153,4 +192,11 @@ section {
         line-height: 15px;
         background-color: none;
     }
+
+    .about img{
+      display:flex;
+      height: 15rem;
+      border: 5px dashed var(--theme)
+    }
+  
   }
