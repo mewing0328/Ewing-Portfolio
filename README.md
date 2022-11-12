@@ -5,7 +5,8 @@
 --- NOTE below is README from Challenge README ---
 
 ## Credit
-[Website](https://pixabay.com/photos/web-design-coding-web-developing-2906159/) where I downloaded the horizontal image of a desk.
+[Image Repository Website](https://pixabay.com/photos/web-design-coding-web-developing-2906159/) where I downloaded the horizontal image of a desk.
+[YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
 
 
 # 02 Advanced CSS: Portfolio
