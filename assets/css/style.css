@@ -1,8 +1,8 @@
 /* Universal selector with a * astericks */
 * {
   box-sizing: border-box;
-  margin:0;
-  padding:0;  
+  margin: 0 auto;
+  padding: 0 auto;  
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -22,6 +22,10 @@ body{
   color: #4F4846;
 }
 
+main{
+  position: absolute;
+}
+
 header,
 footer {
   height: 80px;
@@ -39,18 +43,7 @@ li{
   list-style-type:none;
 }
 
-h1{
-  margin: 0px 2rem;
-  text-align: left;
-  border-right: 3px solid var(--border);
-  background-color: var(--light);
-}
-
-p {
-  
-}
-
-.tiles {
+section {
   display: flex;
   flex-direction: row;
   padding: 20px 10px 40px 10px;
@@ -59,12 +52,12 @@ p {
   text-align: justify;
 }
 
-
-
-footer {
-  position: absolute;
+h1{
+  margin: 0px 2rem;
+  text-align: left;
+  border-right: 3px solid var(--border);
+  background-color: var(--light);
 }
-
 
 
 /* Class selectors with . period */
@@ -113,34 +106,28 @@ footer {
   color: var(--theme);
 }
 
-.desk {
-  display: inline; 
-  margin: 20px auto;
-  margin-bottom: 40px;
-  height: auto;
-  max-width: 100%;
-}
+
 
 .mypic{
   display:flex;
-  align-items: right;
   width: 10rem;
-  object-fit: contain;
   border: 5px dashed var(--theme)
 }
 
-.quote{
-  color: var(--light)
-  display: flex;
-  margin: 0px;
-  right: 0px;
-  top: 15rem;
-  padding: 0px 4rem;
+.banner{
+  background-image: url(../images/desk.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.banner p{
+  display:flex;
+  flex-direction: row;
+  color: var(--dark)
   font-weight: bold;
-  text-align: right;
-  flex-wrap: wrap;
   font-size: 1.5rem;
 }
+
 
 
 /*ID SELECTORS*/

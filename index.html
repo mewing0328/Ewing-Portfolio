@@ -6,43 +6,34 @@
     <meta charset="UTF-8">
     <title>MaSandra Ewing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="stylesheet" 
+          href="assets/css/style2.css"
+    />
   </head>
 
   <body>
+
     <!-- Site Header -->
     <header>
       <p class="lastname">Ewing</p>
-      <!-- Navigation Bar -->
-      <!--<ul> aligned right and <li> inlined with each other-->
-      <navbar>
-        <ul class="nav-list">
-          <li class="nav-item"> <a href="#">About Me</a></li>
-          <li class="nav-item"> <a href="#">My Work</a></li>
-          <li class="nav-item"> <a href="#">Contact Me</a></li>
+        <ul>
+          <li> <a href="#">About Me</a></li>
+          <li> <a href="#">My Work</a></li>
+          <li> <a href="#">Contact Me</a></li>
         </ul>    
-      </navbar>
-    </header>
+      </header>
 
    
-    <main>
-    <section>
-    <!-- Subtitle -->
-      <figure>
-        <img src="./assets/images/web-design-2906159_1280.jpg"
-             alt="Image of a desk with a laptop"
-             class="desk">
-        </figure>
-      <p class="quote">“First, solve the problem. Then, write the code.” – John Johnson.</p>
+  <main>
+    
+    <section class="banner">
+      <p>“First, solve the problem. Then, write the code.” – John Johnson.</p>
     </section>
 
-
-
     <!-- About Me -->
-    <section class="tiles">
-      <img src="./assets/images/image-1.jpg"
-           alt="My picture"
-           class="mypic">
+    <section class="about">
+      <img src="./assets/images/mypic.jpg"
+           alt="My picture">
       <h1>About Me</h1>
       <p>My background has been working in Business Development with a focus on Pricing Strategy. 
          I have experience also in Operations, Project Management, Training & Developing, and Financials. My goal is to add Developing expertise to my resume.
@@ -53,8 +44,8 @@
     <!--My Work -->  
 
 
-    <h1>My Work</h1>
     <section>
+      <h1>My Work</h1>
         <ul>
           <li>Horiseon Marketing</li>
           <li>CSS Snippet Cheatsheet</li>
@@ -65,27 +56,28 @@
         </ul>
         </div>
     </section>  
-  </main>
+  
+
+       <!---Contact Me-->
+       <section>
+        <h1>Contact Me</h1>
+        <ul>
+          <!-- email li item has a unique attribute with a value of 'email'-->
+          <li><strong>Email:</strong> <a href="#">masandraewing@gmail.com</a></li>
+  
+          <!-- Github li item has a unique attribute with value of 'github'-->
+          <li><strong>Github:</strong> <a href="#">mewing0328</a></li>
+  
+          <!-- Portfolio li item has a unique attribute with value of 'portfolio'-->
+          <li><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
+        </ul>
+      </section>
 
 
-   <!---Contact Me-->
-    <footer>
-     <h1>Contact Me</h1>
-     <section>
-      <!-- Unordered list that has id attributes for each li item-->
-      
-      <ul>
-        <!-- email li item has a unique attribute with a value of 'email'-->
-        <li><strong>Email:</strong> <a href="#">masandraewing@gmail.com</a></li>
+      <footer>
 
-        <!-- Github li item has a unique attribute with value of 'github'-->
-        <li><strong>Github:</strong> <a href="#">mewing0328</a></li>
-
-        <!-- Portfolio li item has a unique attribute with value of 'portfolio'-->
-        <li><strong>Portfolio:</strong> <a href="#">coming soon!</a></li>
-      </ul>
-    </section>
-    </footer>
-
+      </footer>
+    
+    </main>
   </body>
 </html>
