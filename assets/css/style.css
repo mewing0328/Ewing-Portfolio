@@ -74,10 +74,13 @@ section {
   }
 
   h1{
-    margin: 0px 2rem;
+    margin: 0px 10px;
     text-align:right;
+    overflow-wrap: normal;
     border-right: 3px solid var(--border);
     background-color: var(--light);
+    /*adding a width of % of the container allows my h1 to align with each other responsive to size of screen*/
+    width: 25%;
   }
 
 /* CLASS SELECTORS */
@@ -145,11 +148,12 @@ section {
     display: block;
     margin: 0px 2px;
     padding: 1rem;
+    width: 50%;
   }
 
   .about img{
     display:flex;
-    width: 10rem;
+    width: 20%;
     border-radius: 5px;
     border: 5px dashed var(--theme)
   }
