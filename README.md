@@ -18,6 +18,7 @@ Responsive navigation bar that changes colors as screen size changes for readabi
 [Image Repository Website](https://pixabay.com/photos/web-design-coding-web-developing-2906159/) where I downloaded the horizontal image of a desk.
 [YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
 [W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
+[MDN Web Docs](https://developer.mozilla.org/en-US/) for tutorials on different CSS selector properties.
 
 ## Usage
 

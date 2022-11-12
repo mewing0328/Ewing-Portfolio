@@ -139,23 +139,33 @@ section {
 /* ------ ABOUT ME ------ */
 
 
-  .about p{
+  .about {
     display: flex;
     flex-direction: row;
-  }
+}
 
   .about div{
     display: block;
     margin: 0px 2px;
     padding: 1rem;
+    max-height: 20rem;
     width: 50%;
+    overflow-y: scroll; 
   }
 
-  .about img{
+  /*!!! TO DO - Figure out why image looks odd in smaller screens. */
+
+  .about p{
+
+    position: relative;
+    background-image: url(../images/Fall_Me.JPG);
+    background-size: cover;
+    background-position: center;
     display:flex;
     width: 20%;
     border-radius: 5px;
     border: 5px dashed var(--theme)
+    
   }
 
   /* ------ END OF ABOUT ME ------ */
@@ -186,7 +196,7 @@ header a:hover{
 @media screen and (max-width:634px) {
     header li, header a{
         font-size: 10px;
-        margin: 0 10px;
+        margin: 0 0px;
         color: var(--light)
     }
     
