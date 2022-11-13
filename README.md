@@ -42,6 +42,12 @@ The following GIF demonstrates the web application's appearance and functionalit
 
 ![portfolio demo](./assets/images/GIF.gif)
 
+The following screenshots shows how the portfolio looks on different devices: 
+![iPhone 12 Pro](./assets/images/iPhone.jpg) with inspect feature to show screen resolution
+<img src="">
+![iPad Pro](./assets/images/iPad.jpg) with inspect feature to show screen resolution
+![Surface Pro](./assets/images/SurfacePro.jpg) on my laptop browser
+
 ## Contributed
 CSS Snippet Cheatsheet - My Work Section Link: 
 * [Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
