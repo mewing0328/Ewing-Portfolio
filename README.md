@@ -1,7 +1,7 @@
 # MaSandra Ewing Portfolio
 
  ## Description
- My portfolio of work that showcases my skills and talents to employers. This portfolio represents core skills of flexbox, media queries, and CSS variables. This portfolio will grow as I obtain future skills and add on more sections for deployed applications.
+ My portfolio of work showcases my skills and talents to employers. This portfolio represents core skills of flexbox, media queries, and CSS variables. This portfolio will grow as I obtain future skills and add more sections for deployed applications.
 
  ### Tasks Completed
  ```
@@ -20,8 +20,8 @@
 [My Code Repository](https://github.com/mewing0328/Ewing-Portfolio)
 
 ## Credit: References and Tutorials Utilized
-* [Apply Glowing Effect Website](https://www.geeksforgeeks.org/apply-glowing-effect-to-the-image-using-html-and-css/) for tutorial on how to get a box to glow if hovering over the item.
-* George Washington University instrutor for GitLab repository with tutorials and this project's specifications.
+* [Apply Glowing Effect Website](https://www.geeksforgeeks.org/apply-glowing-effect-to-the-image-using-html-and-css/) for a tutorial on how to get a box to glow if hovering over the item.
+* George Washington University instructor for GitLab repository with tutorials and this project's specifications.
 * [Image Repository Website](https://pixabay.com/) where I downloaded the horizontal image of a desk.
 * [MDN Web Docs](https://developer.mozilla.org/en-US/) for tutorials on different CSS selector properties.
 * [W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
@@ -30,8 +30,6 @@
 ## Usage
 My portfolio website will be used as an online resume to showcase my work, credentials, and work history for perspective jobs.
 
-## Contributing
-Pull requests are welcome for recommendations for optimizing style.css. Future additions I will include is a section for my alma maters and work history. Recommendations welcome for efficient layouts.
 
 ## Demonstration 
 The following GIF demonstrates the web application's appearance and functionality:
@@ -44,10 +42,12 @@ The following GIF demonstrates the web application's appearance and functionalit
 
 ![portfolio demo](./assets/images/GIF.gif)
 
-## Contributing
+## Contributed
 CSS Snippet Cheatsheet - My Work Section Link: 
 * [Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
 
+## Future Contributing
+Pull requests are welcome for recommendations for optimizing style.css. Future additions I will include is a section for my alma maters and work history. Recommendations are welcome for efficient layouts.
 
 ## License
 MIT License

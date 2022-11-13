@@ -1,13 +1,12 @@
-
 * { 
     box-sizing: border-box;
- /*border is black temp for wireframing REMOVE BEFORE SUBMITTING!*/
+    /*border is black for wireframing. Deactived by comment blocking for future use*/
     /*border: 2px dashed black;*/
     margin: 0 auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
   }
-
+    /*these section is used to change colors easily through the style.css*/
   :root {
     --dark: rgb(32, 27, 27);
     --theme: rgb(166, 228, 233);
@@ -19,8 +18,9 @@
   }
 
 /* ------ ELEMENT SELECTORS ------ */
+  
   /* ELEMENT - NAVIGATION BAR --- */
-
+  /*z-index to dictate the stack order of elements*/
   header {
     position: fixed;
     z-index: 1;
@@ -54,12 +54,10 @@
     padding: 0px 10px;
     color: var(--theme);
   }
-
   /* ELEMENT - END OF NAV BAR --- */
 
 
   /* ELEMENT - MAIN CONTENT --- */
-
   main {
     padding-top: 5rem;
     position: absolute;
@@ -72,24 +70,23 @@
     margin: 0;
   }
 
+    /*adding a width of % of the container allows my h1 to 
+    align with each other responsive to size of screen*/
   h1{
     margin: 0px 10px;
     padding: 5px 20px 5px 0px;
     text-align:right;
     overflow-wrap: normal;
     border-right: 2px solid var(--theme);
-    /*adding a width of % of the container allows my h1 to align with each other responsive to size of screen*/
     width: 25%;
   }
-
-
   /* ELEMENT - END OF MAIN CONTENT --- */
+
 
 
 /* ------ CLASS SELECTORS ------ */
 
   /* CLASS - NAV BAR --- */
-
   .lastname {
     font: 40px garamond-regular;
     line-height: 30px;
@@ -102,6 +99,8 @@
     margin: 5px 0px;
   }
 
+    /*utilized pseudo-element for overlay of text over background image*/
+    /*z-index to dictate the stack order of elements*/
   .banner::after{
     content: "";
     display: block;
@@ -120,13 +119,7 @@
     padding: 10rem 0;
     background-size: cover;
     color: var(--light);
-    }
-
-  /*.banner > *{
-    z-index: 10;
-    position: relative;
-    color: var(--light);
-  }*/
+  }
 
   .banner p{
     display:flex;
@@ -135,18 +128,16 @@
     font-size: 20px;
     align-items: center;
   }
-
   /* CLASS - END OF NAV BAR --- */
 
+
   /* CLASS - ABOUT ME --- */
-
-
   .about {
     display: flex;
     flex-direction: row;
   }
 
-   /*For my picture*/ 
+    /*For my picture*/ 
   .about p{
     position: relative;
     background-image: url(../images/Fall_Me.JPG);
@@ -157,8 +148,9 @@
     border: 1px solid var(--theme);
     border-radius: 5px;
   }
-
-
+  
+    /*The text content is within a text box that can be scrolled up and 
+    down for overflow.*/
   .about div{
     display: block;
     font-family: arial;
@@ -170,20 +162,17 @@
     border: 1px solid var(--theme);
     border-radius: 5px;
   }
-
   /* CLASS - END OF ABOUT ME --- */
 
 
-
-
   /* CLASS - MY WORK --- */
-
   .work {
     display: flex;
     flex-direction: row;
     max-height: none;
   }
 
+    /*reponsive to screen resolution throttling*/
   .work ul,
   .contact ul{
   display: flex;
@@ -213,20 +202,12 @@
     border: 1px solid var(--theme);
     border-radius: 5px;
   }
-
   /* CLASS - END OF MY WORK --- */
 
 
-  /* CLASS - CONTACT ME --- */
-
-
-
-  /* CLASS - CONTACT ME --- */
-  
-
 
 /* ------ ID SELECTORS ------ */
-
+  /*first project will always take up 100% width in any screen resolution*/
 #w1{
   background-image: url(../images/sky.jpg);
   width: 100%;
@@ -249,9 +230,9 @@
 
 
 
-/* PSUEDO ELEMENTS */
+/* ------ PSUEDO SELECTORS ------ */
 
-/*Hover in navigation bar for mouse hovering.*/
+/*Hover in navigation bar, My Work tiles, and Contact Me links for mouse hovering.*/
 header a:hover,
 .work li:hover,
 .contact li:hover{
@@ -260,7 +241,6 @@ header a:hover,
   font-weight: bold;
   }
   
-
 header a:hover{
     color: var(--dark);
     background-color: var(--light);
@@ -268,7 +248,8 @@ header a:hover{
     border-radius: 5px;
 }
 
-/*MEDIA QUERIES for different screen sizes*/
+
+/* ------ MEDIA QUERIES ------ */
 
 /* For small screens like cell phones: 
     - max width is at 634px so "Ewing" doesn't clash with "About Me"

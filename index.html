@@ -2,55 +2,56 @@
 <html lang="en-US">
 
   <head>
-    <!-- Link the stylesheet using rel and href attributes to the CSS stylesheet -->
     <meta charset="UTF-8">
     <title>MaSandra Ewing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" 
-           href="assets/css/style.css"
-    />
+          href="assets/css/style.css"/>
   </head>
 
   <body>
-
-    <!-- Site Header -->
+    <!-- Site Header - NAVIGATION PANE -->
+    <!-- see the style.css file for @media properties and hover psuedo-class -->
     <header>
       <p class="lastname">Ewing</p>
         <ul>
+          <!--These links when clicked, the UI will scroll to that section-->
           <li> <a href="#aboutme">About Me</a></li>
           <li> <a href="#mywork">My Work</a></li>
           <li> <a href="#contactme">Contact Me</a></li>
         </ul>    
       </header>
 
-   
   <main>
-    
-    <section class="banner">
+    <!-- Banner: responsive when throttling -->
+    <!--image in css-->
+    <section class="banner" alt="Picture of a table with a laptop, coffee, and a Javascript book.">
       <p>“First, solve the problem. Then, write the code.” – John Johnson.</p>
     </section>
 
     <!-- About Me -->
     <section class="about" >
       <h1 id="aboutme">About Me</h1>
-        <p alt="Picture of MaSandra Ewing"><!--image in css--></p> 
+        <!--image in css-->
+        <p alt="Picture of MaSandra Ewing"></p> 
+        <!--The text content is within a text box that can be scrolled up and down for overflow. -->
         <div>Hello, I'm MaSandra! I am a resident of Potomac, Maryland, USA.
           I embarked on a journey to obtain developing skills to complement my Business Development background. 
           <br></br>
-          I have a strong passion for efficiently mining data to provide insight on operations. How can we utilize your Operations, Finance, Project Management, and Sales data to strategically earn higher margins?
-          By adding developing skillset to my business development background, I can holistically help you stratigize.
+          I have a strong passion for efficiently mining data to provide insight into operations. How can we utilize your Operations, Finance, Project Management, and Sales data to strategically earn higher margins?
+          By adding developing skillset to my business development background, I can holistically help you strategize.
           <br></br>
           Check out my work below and let's connect!  
         </div>
     </section>
 
-
     <!--My Work -->  
-
-
     <section class="work">
       <h1 id="mywork">My Work</h1>
         <ul>
+          <!--images for ids below are in css-->
+          <!--my first project has a 100% width in any screen resolution -->
+          <!-- see the style.css file for @media properties and hover psuedo-class -->
           <li id="w1"><a href="https://mewing0328.github.io/Horiseon-Marketing-Techniques/">Horiseon Marketing</a></li>
           <li id="w2"><a href="#">Third-Party APIs Project</a></li>
           <li id="w3"><a href="#">Web APIs Project</a></li>
@@ -58,18 +59,14 @@
           <li id="w5"><a href="https://suvarna28.github.io/CSS-Snippet-Cheatsheet/">CSS Snippet Cheatsheet</a></li>
           <li id="w6"><a href="#">Server-Side APIs Project</a></li>
         </ul>
-        </div>
     </section>  
-  
-
-
-
 
       <footer>
        <!---Contact Me-->
        <section class="contact">
         <h1 id="contactme">Contact Me</h1>
         <ul>
+          <!-- see the style.css file for @media properties and hover psuedo-class -->
           <li><strong></strong> <a href="#">(305) 733-3032</a></li>
           <li><strong></strong> <a href="mailto:masandraewing@gmail.com">Email Me</a></li>
           <li><strong></strong> <a href="https://github.com/mewing0328?tab=repositories">GitHub</a></li>
@@ -77,7 +74,7 @@
         </ul>
       </section>
       </footer>
-    
     </main>
+
   </body>
 </html>
