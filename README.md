@@ -5,50 +5,57 @@
 
  ### Tasks Completed
  ```
-Responsive navigation bar that changes colors as screen size changes for readability.
-
+ * Responsive navigation bar that changes colors as screen size changes for readability.
+ * When the portfolio is loaded, the my name, recent photo, and links to sections about me, my developing work, and how potential employers can contact me. 
+ *
+ *
  ```
 
  ## Links
+[My Deployed Website](#)
 
-
-
+[My Code Repository](https://github.com/mewing0328/Ewing-Portfolio)
 
 ## Credit: References and Tutorials Utilized
-* [Image Repository Website](https://pixabay.com/) where I downloaded the horizontal image of a desk.
-* [YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
-* [W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
-* [MDN Web Docs](https://developer.mozilla.org/en-US/) for tutorials on different CSS selector properties.
 * [Apply Glowing Effect Website](https://www.geeksforgeeks.org/apply-glowing-effect-to-the-image-using-html-and-css/) for tutorial on how to get a box to glow if hovering over the item.
+* [Image Repository Website](https://pixabay.com/) where I downloaded the horizontal image of a desk.
+* [MDN Web Docs](https://developer.mozilla.org/en-US/) for tutorials on different CSS selector properties.
+* [W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
+* [YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
 
 ## Usage
-
-### Mobile Screens 
-The screen appears below for screen sizes 634px and below:
-[Insert screenshot]
-
-### Tablet Screens 
-The screen appears below for screen sizes [xxx]px and below:
-[Insert screenshot]
-
-### Desktop Screens
-The screen appears below for screen sizes [xxx]px and below:
-[Insert screenshot]
-
+My portfolio website will be used as an online resume to showcase my work, credentials, and work history for perspective jobs.
 
 ## Contributing
-[Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
+Pull requests are welcome for recommendations for optimizing style.css. Future additions I will include is a section for my alma maters and work history. Recommendations welcome for efficient layouts.
+
+## Demonstration 
+
+The following GIF demonstrates the web application's appearance and functionality:
+ ```
+ * Demo of throttling screen resolution and @media functionality
+ * Demo of hover CSS pseudo-class styling
+ * Demo of active links 
+ ```
+
+![portfolio demo](./assets/images/GIF.gif)
+
+## Contributing
+CSS Snippet Cheatsheet - My Work Section Link: 
+* [Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
 
 
 ## License
 
 
 
+
+
+
+
 --- NOTE below is README from Challenge README ---
 
-# 02 Advanced CSS: Portfolio
 
-## Your Task
 
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses. 
 

@@ -10,7 +10,7 @@
 
   :root {
     --dark: rgb(32, 27, 27);
-    --theme: rgb(37, 155, 163);
+    --theme: rgb(166, 228, 233);
     --light: rgb(218, 237, 245);
     --border: rgb(236, 173, 144);
     --green: rgb(12, 94, 12);
@@ -74,7 +74,7 @@
 
   h1{
     margin: 0px 10px;
-    padding: 5px;
+    padding: 5px 20px 5px 0px;
     text-align:right;
     overflow-wrap: normal;
     border-right: 2px solid var(--theme);
@@ -93,7 +93,6 @@
   .lastname {
     font: 40px garamond-regular;
     line-height: 30px;
-    color: var(--light);
     background-color: var(--theme);
     padding: 10px;
     width: 250px;
@@ -162,6 +161,7 @@
 
   .about div{
     display: block;
+    font-family: arial;
     margin: 0px 2px;
     padding: 1rem;
     width: 50%;
@@ -277,15 +277,15 @@ header a:hover{
 @media screen and (max-width:634px) {
     header li, header a{
         font-size: 10px;
-        margin: 0 0px;
-        color: var(--light)
+        margin: 0px;
+        padding: 0px 1px;
+        color: var(--light);
     }
     
     .lastname{
         text-align: left;
         font-size: 40px;
         line-height: 15px;
-        background-color: none;
     }
 
     .about img{
