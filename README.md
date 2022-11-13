@@ -43,10 +43,18 @@ The following GIF demonstrates the web application's appearance and functionalit
 ![portfolio demo](./assets/images/GIF.gif)
 
 The following screenshots shows how the portfolio looks on different devices: 
-![iPhone 12 Pro](./assets/images/iPhone.jpg) with inspect feature to show screen resolution
-<img src="">
-![iPad Pro](./assets/images/iPad.jpg) with inspect feature to show screen resolution
-![Surface Pro](./assets/images/SurfacePro.jpg) on my laptop browser
+### iPhone 12 Pro with inspect feature to show screen resolution
+<img src=./assets/images/iPhone.jpg style="width:21rem">
+
+<br></br>
+
+### iPad Pro with inspect feature to show screen resolution 
+<img src=./assets/images/iPad.jpg style="width:28rem"> 
+
+<br></br>
+
+### Surface Pro on my laptop browser
+<img src=./assets/images/SurfacePro.jpg style="width:40rem"> 
 
 ## Contributed
 CSS Snippet Cheatsheet - My Work Section Link: 
