@@ -22,7 +22,7 @@
 ## Credit: References and Tutorials Utilized
 * [Apply Glowing Effect Website](https://www.geeksforgeeks.org/apply-glowing-effect-to-the-image-using-html-and-css/) for a tutorial on how to get a box to glow if hovering over the item.
 * George Washington University instructor for GitLab repository with tutorials and this project's specifications.
-* [Image Repository Website](https://pixabay.com/) where I downloaded the horizontal image of a desk.
+* [Image Repository Website](https://pixabay.com/) where I downloaded images for my portfolio styling.
 * [MDN Web Docs](https://developer.mozilla.org/en-US/) for tutorials on different CSS selector properties.
 * [W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
 * [YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
