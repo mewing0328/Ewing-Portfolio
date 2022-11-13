@@ -206,7 +206,7 @@
     border-radius: 5px;
   }
 
-  .work p{
+  .work a{
     background-color: var(--light);
     margin: 25% 50% 0% 0%;
     padding: 5px;
@@ -270,7 +270,7 @@ header a:hover{
 
 /*MEDIA QUERIES for different screen sizes*/
 
-/* For cell phones: 
+/* For small screens like cell phones: 
     - max width is at 634px so "Ewing" doesn't clash with "About Me"
     - color and font size of hyperlinks change
 */
