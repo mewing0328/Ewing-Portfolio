@@ -6,7 +6,7 @@
  ### Tasks Completed
  ```
  * Responsive navigation bar that changes colors as screen size changes for readability.
- * When the portfolio is loaded, the my name, recent photo, and links to sections about me, my developing work, and how potential employers can contact me. 
+ * When the portfolio is loaded, my name, recent photo, and links to sections about me, my developing work, and how potential employers can contact me. 
  * When a user clicks on the navigation bar, the UI scrolls to the corresponding section.
  * When a user clicks on the link to the "My Work" section, the UI scrolls to that section with titled images.
  * My first application is presented as a larger image than the other images in any screen resolution size.
