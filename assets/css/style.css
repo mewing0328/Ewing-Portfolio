@@ -2,27 +2,26 @@
 * { 
     box-sizing: border-box;
  /*border is black temp for wireframing REMOVE BEFORE SUBMITTING!*/
-    border: 2px dashed black;
+    /*border: 2px dashed black;*/
     margin: 0 auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
+  }
 
-:root {
+  :root {
     --dark: rgb(32, 27, 27);
     --theme: rgb(27, 138, 146);
     --light: rgb(218, 237, 245);
     --border: rgb(236, 173, 144);
     --green: rgb(12, 94, 12);
+    --gradient: linear-gradient(to right, var(--border), var(--green));
+    --hovershadow: rgb(226, 86, 121);
   }
 
-  body {
-  }
+/* ------ ELEMENT SELECTORS ------ */
+  /* ELEMENT - NAVIGATION BAR --- */
 
-
-/* ------ NAVIGATION BAR ------ */
-
-header {
+  header {
     position: fixed;
     z-index: 1;
     border-bottom: 10px solid var(--theme);
@@ -31,41 +30,42 @@ header {
     text-align: justify;
     line-height: 50px;
     top: 0px;
-}
+  }
 
-header ul{
+  header ul{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
-}
+  }
 
-header li{
+  header li{
     display: flex;
     list-style: none;
     margin: 20px 10px;
     font-size: 1.2rem;
     font-weight: bold;
     justify-content: space-around;
-}
+  }
 
-header a{
+  header a{
     padding: 0px 10px;
     color: var(--theme);
-}
+  }
 
-/* ------ END OF NAVIGATION BAR ------ */
+  /* ELEMENT - END OF NAV BAR --- */
 
-/* ------ MAIN CONTENT ------ */
 
-main {
+  /* ELEMENT - MAIN CONTENT --- */
+
+  main {
     padding-top: 5rem;
     position: absolute;
   }
 
-section {
+  section {
     display: flex;
     flex-direction: row;
     padding: 20px 10px 40px 10px;
@@ -75,17 +75,21 @@ section {
 
   h1{
     margin: 0px 10px;
+    padding: 5px;
     text-align:right;
     overflow-wrap: normal;
     border-right: 3px solid var(--border);
-    background-color: var(--light);
     /*adding a width of % of the container allows my h1 to align with each other responsive to size of screen*/
     width: 25%;
   }
 
-/* CLASS SELECTORS */
 
-/* ------ NAVIGATION BAR ------ */
+  /* ELEMENT - END OF MAIN CONTENT --- */
+
+
+/* ------ CLASS SELECTORS ------ */
+
+  /* CLASS - NAV BAR --- */
 
   .lastname {
     font-size: 40px;
@@ -134,58 +138,113 @@ section {
     align-items: center;
   }
 
-/* ------ END OF NAVIGATION BAR ------ */
+  /* CLASS - END OF NAV BAR --- */
 
-/* ------ ABOUT ME ------ */
+  /* CLASS - ABOUT ME --- */
 
 
   .about {
     display: flex;
     flex-direction: row;
-}
-
-  .about div{
-    display: block;
-    margin: 0px 2px;
-    padding: 1rem;
-    max-height: 20rem;
-    width: 50%;
-    overflow-y: scroll; 
   }
 
-  /*!!! TO DO - Figure out why image looks odd in smaller screens. */
-
+   /*For my picture*/ 
   .about p{
-
     position: relative;
     background-image: url(../images/Fall_Me.JPG);
     background-size: cover;
     background-position: center;
     display:flex;
     width: 20%;
+    border: 1px solid var(--theme);
     border-radius: 5px;
-    border: 5px dashed var(--theme)
-    
   }
 
-  /* ------ END OF ABOUT ME ------ */
+
+  .about div{
+    display: block;
+    margin: 0px 2px;
+    padding: 1rem;
+    width: 50%;
+    max-height: 10rem;
+    overflow-y: scroll; 
+    border: 1px solid var(--theme);
+    border-radius: 5px;
+  }
+
+  /* CLASS - END OF ABOUT ME --- */
 
 
 
+
+  /* CLASS - MY WORK --- */
+
+  .work {
+    display: flex;
+    flex-direction: row;
+    max-height: none;
+  }
+
+  .work ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  margin: 0px 2px;
+  padding: 1rem;
+  width: 75%;
+  list-style: none;
+  }
+
+  .work li{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex: auto;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid var(--theme);
+    border-radius: 5px;
+  }
+
+  .work p{
+    background-color: var(--light);
+    margin: 25% 50% 0% 0%;
+  }
+
+  /* CLASS - END OF MY WORK --- */
+
+
+  /* CLASS - CONTACT ME --- */
+
+  /* CLASS - CONTACT ME --- */
   
+
+
+/* ------ ID SELECTORS ------ */
+
+#w1{
+  background-image: url(../images/sky.jpg);
+}
+
+
+
 /* PSUEDO ELEMENTS */
 
 /*Hover in navigation bar for mouse hovering.*/
 header a:hover{
   color: var(--light);
-  background-image: linear-gradient(to right, var(--border), var(--green));
+  background-image: var(--gradient);
   font-size: larger;
   border-radius: 5px;
   border: .5rem solid var(--theme);
   align-items: top;
 }
 
-
+.work li:hover{
+  color: #111;
+  box-shadow: 0 0 5rem var(--hovershadow);
+  font-weight: bold;
+  }
   
 /*MEDIA QUERIES for different screen sizes*/
 
@@ -209,7 +268,6 @@ header a:hover{
 
     .about img{
       display:flex;
-      height: 15rem;
       border: 5px dashed var(--theme)
     }
   

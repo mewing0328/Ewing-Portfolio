@@ -19,6 +19,7 @@ Responsive navigation bar that changes colors as screen size changes for readabi
 [YouTube Video for an image overlay](https://youtu.be/SXQ9l0ScDEA) I applied to my CSS for my banner.
 [W3 Schools Website](https://www.w3schools.com/default.asp) for tutorials on different CSS selector properties.
 [MDN Web Docs](https://developer.mozilla.org/en-US/) for tutorials on different CSS selector properties.
+[Apply Glowing Effect Website](https://www.geeksforgeeks.org/apply-glowing-effect-to-the-image-using-html-and-css/) for tutorial on how to get a box to glow if hovering over the item.
 
 ## Usage
 
