@@ -78,7 +78,7 @@
     text-align:right;
     overflow-wrap: normal;
     border-right: 2px solid var(--theme);
-    width: 30%;
+    width: 20%;
   }
   /* ELEMENT - END OF MAIN CONTENT --- */
 
@@ -137,6 +137,12 @@
     flex-direction: row;
   }
 
+  .about p,
+  .about div{
+    border: 1px solid var(--theme);
+    border-radius: 5px;
+  }
+
     /*For my picture*/ 
   .about p{
     position: relative;
@@ -144,9 +150,8 @@
     background-size: cover;
     background-position: center;
     display:flex;
-    width: 20%;
-    border: 1px solid var(--theme);
-    border-radius: 5px;
+    width: 30%;
+    margin: 0px 10px;
   }
   
     /*The text content is within a text box that can be scrolled up and 
@@ -154,23 +159,17 @@
   .about div{
     display: block;
     font-family: arial;
-    margin: 0px 2px;
-    padding: 1rem;
-    width: 50%;
-    max-height: 10rem;
+    margin: 0px;
+    padding: 10px;
+    width: 40%;
+    min-height: 20rem;
+    max-height: 22rem;
     overflow-y: scroll; 
-    border: 1px solid var(--theme);
-    border-radius: 5px;
   }
   /* CLASS - END OF ABOUT ME --- */
 
 
   /* CLASS - MY WORK --- */
-  .work {
-    display: flex;
-    flex-direction: row;
-    max-height: none;
-  }
 
     /*reponsive to screen resolution throttling*/
   .work ul,
@@ -271,5 +270,11 @@ header a:hover{
       display:flex;
       border: 5px dashed var(--theme)
     }
-  
   }
+
+/* For very small screens h1 font size needs to get smaller*/
+@media screen and (max-width:514px) {
+    h1{
+      font-size: smaller;
+    }
+}
