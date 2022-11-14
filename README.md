@@ -57,8 +57,7 @@ The following screenshots shows how the portfolio looks on different devices:
 <img src=./assets/images/SurfacePro.jpg style="width:40rem"> 
 
 ## Contributed
-CSS Snippet Cheatsheet - My Work Section Link: 
-* [Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
+CSS Snippet Cheatsheet - My Work Section Link: [Andre Brahin](https://github.com/VenBak), [Suvarna Jadhav](https://github.com/suvarna28), and [Claire Lee](https://github.com/leeclaire156) contributed to the CSS Snippet Cheatsheet repository in "My Work" section.
 
 ## Future Contributing
 Pull requests are welcome for recommendations for optimizing style.css. Future additions I will include is a section for my alma maters and work history. Recommendations are welcome for efficient layouts.
