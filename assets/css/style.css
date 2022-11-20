@@ -208,22 +208,27 @@
   /*first project will always take up 100% width in any screen resolution*/
 #w1{
   background-image: url(../images/sky.jpg);
-  width: 100%;
+  width: 100%
 }
 #w2{
   background-image: url(../images/painting.jpg);
+  max-width: 50%;
 }
 #w3{
   background-image: url(../images/bubbles.jpg);
+  max-width: 50%
 }
 #w4{
   background-image: url(../images/lines.jpg);
+  max-width: 50%
 }
 #w5{
   background-image: url(../images/triangles.jpg);
+  max-width: 50%
 }
 #w6{
   background-image: url(../images/texture.jpg);
+  max-width: 50%
 }
 
 
